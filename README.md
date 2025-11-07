@@ -12,6 +12,9 @@ Users seeking a straightforward and reliable online shopping experience.
 
 
 Key Features
+
+
+
 Personalized Shopping Browse clothing categories specifically tailored for both men and women.
 
 

@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Closet Craft</string>
+    <string name="title_track_order">Track Your Order</string>
+    <string name="hint_order_id">Order ID</string>
+    <string name="hint_tracking_number">Tracking Number</string>
+    <string name="btn_track_order">Track Order</string>
+    <string name="btn_scan_barcode">Scan</string>
+    <string name="title_order_summary">Order Summary</string>
+    <string name="title_tracking_history">Tracking History</string>
+    <string name="label_order_id">Order ID:</string>
+    <string name="label_order_date">Order Date:</string>
+    <string name="label_estimated_delivery">Estimated Delivery:</string>
+    <string name="label_status">Status:</string>
+    <string name="label_carrier">Carrier:</string>
+    <string name="label_current_location">Current Location:</string>
+    <string name="btn_delivery_instructions">Add Delivery Instructions</string>
+    <string name="btn_live_tracking">Simulate Live Update</string>
+    <string name="error_order_not_found">Order not found. Please check your order ID or tracking number.</string>
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="loading">Tracking order…</string>
+    <string name="success_order_tracked">Order tracked successfully!</string>
+    <string name="default_web_client_id">AIzaSyAOov5xpZAHGHvfXPPEcbikjikiHM4f5_M</string>
+
+
+    <string name="settings">Settings</string>
+    <string name="track_order">Track my order (In Development)</string>
+    <string name="return_exchange">Log a Return or Exchange (In Development)</string>
+    <string name="account">Account</string>
+    <string name="sign_out">SIGN OUT</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="home">Home</string>
+    <string name="cart">Cart</string>
+
+    <string-array name="theme_modes">
+        <item>Use System Default</item>
+        <item>Light Mode</item>
+        <item>Dark Mode</item>
+    </string-array>
+    <string-array name="size_options">
+        <item>All</item>
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+    </string-array>
+
+    <string-array name="price_options">
+        <item>All</item>
+        <item>Under 50</item>
+        <item>50 - 100</item>
+        <item>100 - 200</item>
+        <item>Above 200</item>
+    </string-array>
+
+    <string-array name="color_options">
+        <item>All</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Black</item>
+        <item>White</item>
+    </string-array>
+
+</resources>

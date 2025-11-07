@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".CheckoutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:elevation="4dp"
+        android:layout_margin="24dp"
+        android:gravity="center">
+
+        <!-- Checkout Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHECKOUT"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginBottom="12dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BDBDBD"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Payment Header -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Payment"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All transactions are secure and encrypted."
+            android:textSize="12sp"
+            android:textColor="#757575"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Credit Card Selection -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/payment_option_bg"
+            android:padding="12dp"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/radioCreditCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Credit card"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:buttonTint="@color/black"
+                android:layout_marginEnd="10dp"/>
+
+            <ImageView
+                android:id="@+id/ivVisa"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_visa"
+                android:layout_marginEnd="6dp"
+                android:alpha="0.3"/>
+
+            <ImageView
+                android:id="@+id/ivMastercard"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_mastercard"
+                android:alpha="0.3"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+6"
+                android:textSize="14sp"
+                android:textColor="#757575"
+                android:layout_marginStart="4dp"/>
+        </LinearLayout>
+
+        <!-- Card Input Fields -->
+        <EditText
+            android:id="@+id/etCardNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Card number"
+            android:inputType="number"
+            android:background="@drawable/edittext_bg"
+            android:padding="14dp"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginBottom="10dp">
+
+            <EditText
+                android:id="@+id/etExpiry"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Exp-date (MM / YY)"
+                android:inputType="text"
+                android:background="@drawable/edittext_bg"
+                android:padding="14dp"
+                android:layout_marginEnd="8dp"/>
+
+            <EditText
+                android:id="@+id/etCvv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Security code"
+                android:inputType="numberPassword"
+                android:background="@drawable/edittext_bg"
+                android:padding="14dp"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/etNameOnCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name on card"
+            android:inputType="textPersonName"
+            android:background="@drawable/edittext_bg"
+            android:padding="14dp"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Checkbox -->
+        <CheckBox
+            android:id="@+id/checkboxBilling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Use shipping address as billing address"
+            android:checked="true"
+            android:textColor="#424242"
+            android:textSize="13sp"
+            android:layout_marginBottom="24dp"/>
+        <TextView
+            android:id="@+id/tv_total_checkout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total: R 0.00"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Pay Button -->
+        <Button
+            android:id="@+id/btnPayNow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PAY NOW ✅"
+            android:textColor="@color/black"
+            android:background="@drawable/paynow_button"
+            android:textAllCaps="false"
+            android:padding="14dp"
+            android:textSize="15sp"/>
+    </LinearLayout>
+</FrameLayout>

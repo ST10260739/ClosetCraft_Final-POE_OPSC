@@ -1,0 +1,10 @@
+<resources>
+    <string name="settings">Stellings</string>
+    <string name="track_order">Volg my bestelling (In Ontwikkeling)</string>
+    <string name="return_exchange">Lê \'n Terugstuur of Ruil in (In Ontwikkeling)</string>
+    <string name="account">Rekening</string>
+    <string name="sign_out">TEKEN UIT</string>
+    <string name="wishlist">Wenslys</string>
+    <string name="home">Tuis</string>
+    <string name="cart">Mandjie</string>
+</resources>

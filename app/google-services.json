@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "454378704775",
+    "project_id": "closet-craft",
+    "storage_bucket": "closet-craft.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454378704775:android:fb41e62a384e4965ba4d22",
+        "android_client_info": {
+          "package_name": "com.example.closetcraft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454378704775-qslt0nkmkfof0v8g8mlc45mcbs2h22kj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.closetcraft",
+            "certificate_hash": "a2e6630d19be20cfd6228acf1cecdc953c79293d"
+          }
+        },
+        {
+          "client_id": "454378704775-ntgt1ca080hib24tag3n6qdohb44fj24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOov5xpZAHGHvfXPPEcbikjikiHM4f5_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454378704775-ntgt1ca080hib24tag3n6qdohb44fj24.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
